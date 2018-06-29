@@ -1,0 +1,3 @@
+[submodule "chef_cookbook/chef_cookbook/tomcat7-cookbook"]
+	path = chef_cookbook/chef_cookbook/tomcat7-cookbook
+	url = https://github.com/solarvm/tomcat7-cookbook.git
