@@ -20,3 +20,9 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 # source_url 'https://github.com/<insert_org_here>/war_deployment'
 
 depends 'tomcat7-cookbook'
+
+supports 'centos'
+supports 'ubuntu'
+
+depends 'java', '~> 1.42'
+depends 'ulimit', '~> 0.3'
